@@ -22,7 +22,7 @@ fi
 
 #set a fancy prompt (non-color, unless we know we *want* color)
 case "$TERM" in
-  xterm-color|xterm|linux|screen)
+  xterm-color|xterm|linux|screen|tmux)
     COLOR_RED='\e[91m'
     COLOR_YELLOW='\e[93m'
     COLOR_GREEN='\e[92m'
